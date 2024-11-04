@@ -1,0 +1,135 @@
+/* Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Header Styles */
+header {
+    padding: 40px;
+}
+
+header h1 {
+    font-size: 3em;
+    font-weight: 700;
+    color: white;
+}
+
+header p {
+    font-size: 1.5em;
+    font-weight: 300;
+    margin-top: 10px;
+    color: #aaa;
+}
+
+.play-icon {
+    font-size: 2em;
+    margin-top: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.play-icon span {
+    display: inline-block;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+/* Video Modal Styles */
+.video-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.video-content {
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+}
+
+.video-content iframe {
+    width: 100%;
+    height: 450px;
+    border-radius: 10px;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 2em;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Quote Section */
+.quote-section {
+    padding: 60px 20px;
+    font-size: 1.5em;
+    font-style: italic;
+    color: #ccc;
+}
+
+/* Biography Section */
+.biography-section {
+    background-color: #1a1a1a;
+    padding: 40px 20px;
+    max-width: 800px;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+.biography-section img {
+    max-width: 300px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+.biography-section h2 {
+    font-size: 2em;
+    margin: 20px 0;
+    color: white;
+}
+
+.biography-section p {
+    font-size: 1em;
+    color: #ddd;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Footer Styles */
+footer {
+    padding: 20px;
+    color: #777;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
